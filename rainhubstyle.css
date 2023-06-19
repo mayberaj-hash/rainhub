@@ -23,12 +23,17 @@
 }
 
 @media (max-width: 768px) {
-    .container {
+    .first-page {
       background-size: contain;
     }
   }
 
-
+@media screen and (max-width: 600px){
+    .first-page{
+        background-image: url(mov1.gif);
+        background-size: cover;
+    }
+}
 .first-page{
     position: relative;
     width: 100%;
@@ -103,7 +108,7 @@
 }
 
 .details h1{
-    font-size: 55px;
+    font-size: 50px;
 
 }
 
@@ -114,5 +119,6 @@
 }
 
 .details p{
+    text-align: center;
     font-family: 'Dancing Script';
 }
