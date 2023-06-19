@@ -19,6 +19,11 @@
 
 }
 
+.container{
+    background-image: url('path/to/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .flow{
     animation: background-pan 3s linear infinite;
     background: linear-gradient(to right, var(--darkblue), var(--midblue), var(--skyblue), var(--darkblue));
@@ -53,10 +58,22 @@ nav{
     width: 3.5rem;
 }
 
-.name1{
+.details{
     position: absolute;
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.btn{
+    border: 1px solid var(--skyblue);
+    background: none;
+    padding: 0.75rem 2.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--skyblue);
+    transition: 0.2s;
+    border-radius: 0.3rem;
 }
